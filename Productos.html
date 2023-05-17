@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+  <title>Todos los Productos</title>
+ 
+
+</head>
+
+<body style = "background-color: lightblue">
+
+
+  <h3>Mostrar Todos los Productos</h3>
+  <form class="well form-horizontal" action="BuscarProductos.php" method="post"  id="contact_form">
+      <fieldset>   
+  <!-- METODO DE MOSTRAR -->    
+  <div class="from">
+  <form action="BuscarProductos.php" method="POST">
+  
+  
+  <label for="mostrar">Mostrar Todos</label><br>    
+  <input type="submit" value="Mostrar">
+  
+  
+  </form> 
+  </div>
+  </fieldset>
+  </form> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3>Buscar Productos por ID</h3>
+  <form class="well form-horizontal" action="BuscarProductosID.php" method="post"  id="contact_form">
+      <fieldset>   
+  <!-- METODO DE Buscar por ID -->    
+  <div class="from">
+  
+  
+  <form action="BuscarProductosID.php" method="POST">
+  
+  <label for="buscar">Ingrese ID para Buscar:</label><br>
+  <input type="number" name="ematricula" value="" min="0" max="1000000"><br><br>    
+  <input type="submit" value="Buscar.">
+  
+  </form>
+  
+  </div>  
+  </fieldset>
+  </form>    
+
+
+
+
+
+
+
+
+
+
+    <h3>Registrar Productos</h3>
+<form class="well form-horizontal" action="RegistrarProductos.html" method="post"  id="contact_form">
+    <fieldset>
+<!-- Nombre de la pagina -->
+
+<!-- Declarando los campos a llenar-->
+<div class="from">
+<form action="InsertarAlumnos.php" method="POST">
+
+<br>    
+<input type="submit" value="REGISTRAR PRODUCTOS">
+    
+</form>
+</div>
+</fieldset>
+</form>
+
+  
+
+
+<h3>Actualizar Productos</h3>
+<form class="well form-horizontal" action="ActualizarProductosMostrar.php" method="post"  id="contact_form">
+    <fieldset>   
+<!-- METODO DE MOSTRAR -->    
+<div class="from">
+
+
+<form action="ActualizarProductosMostrar.php" method="POST">
+
+<label for="actualizar">Ingrese ID para Actualizar:</label><br>
+<input type="number" name="aid" value="" min="0"><br><br>    
+<input type="submit" value="Actualizar.">
+
+</form>
+
+</div>  
+</fieldset>
+</form>     
+
+
+
+
+    
+<h3>Eliminar Productos</h3>
+<form class="well form-horizontal" action="EliminarProductosMostrar.php" method="post"  id="contact_form">
+    <fieldset>   
+<!-- METODO DE MOSTRAR -->    
+<div class="from">
+
+
+<form action="EliminarProductosMostrar.php" method="POST">
+
+<label for="eliminar">Ingrese ID para Eliminar:</label><br>
+<input type="number" name="eid" value="" min="0"><br><br>    
+<input type="submit" value="Eliminar.">
+
+</form>
+
+</div>  
+</fieldset>
+</form>       
+    
+      
+        
+        
+    </body>
+    </html>
